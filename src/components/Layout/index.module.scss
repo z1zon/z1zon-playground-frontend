@@ -1,0 +1,15 @@
+.layoutWrapper {
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.contentBox {
+  height: auto;
+  width: auto;
+  min-height: calc(var(--vh, 1vh) * 100);
+  position: relative;
+  margin: 0 auto;
+}
