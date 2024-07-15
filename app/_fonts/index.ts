@@ -47,5 +47,4 @@ const pretendardFont = localFont({
   ],
 });
 
-// eslint-disable-next-line simple-import-sort/exports
 export { pretendardFont, notoSerifKr };
