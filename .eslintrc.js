@@ -1,8 +1,5 @@
 module.exports = {
   root: true,
-  ignorePatterns: [
-    '/.next',
-  ],
   extends: [
     'airbnb',
     'eslint:recommended',
@@ -11,7 +8,6 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:react/jsx-runtime',
     'plugin:@next/next/recommended',
-    'plugin:@typescript-eslint/recommended',
   ],
   plugins: [
     '@typescript-eslint',
@@ -25,6 +21,8 @@ module.exports = {
     'public/',
     '.yarn/',
     'dist/',
+    '/.next',
+    '.eslintrc.js',
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -45,12 +43,17 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       parser: '@typescript-eslint/parser',
+      extends: [
+        'airbnb-typescript',
+        'plugin:@typescript-eslint/recommended',
+      ],
       parserOptions: {
         project: ['./tsconfig.json'],
       },
     },
   ],
   rules: {
+    'react/jsx-props-no-spreading': 'off',
     'react/require-default-props': 'off',
     'import/order': 'off',
     '@typescript-eslint/no-explicit-any': 'warn',
