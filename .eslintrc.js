@@ -81,11 +81,6 @@ module.exports = {
         argsIgnorePattern: "^_",
       },
     ],
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        devDependencies: ["**/*.stories.*", "**/.storybook/**/*.*"],
-      },
-    ],
+    "import/no-extraneous-dependencies": "off",
   },
 };
