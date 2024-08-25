@@ -35,6 +35,8 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.0"],\
           ["@typescript-eslint/eslint-plugin", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:7.14.1"],\
           ["@typescript-eslint/parser", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:7.14.1"],\
+          ["@vercel/analytics", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:1.3.1"],\
+          ["@vercel/speed-insights", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:1.0.12"],\
           ["class-variance-authority", "npm:0.7.0"],\
           ["clsx", "npm:2.1.1"],\
           ["eslint", "npm:8.57.0"],\
@@ -848,6 +850,75 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/@ungap-structured-clone-npm-1.2.0-648f0b82e0-10c0.zip/node_modules/@ungap/structured-clone/",\
         "packageDependencies": [\
           ["@ungap/structured-clone", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@vercel/analytics", [\
+      ["npm:1.3.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/@vercel-analytics-npm-1.3.1-fdf1f71ba5-10c0.zip/node_modules/@vercel/analytics/",\
+        "packageDependencies": [\
+          ["@vercel/analytics", "npm:1.3.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:1.3.1", {\
+        "packageLocation": "./.yarn/__virtual__/@vercel-analytics-virtual-33b3bd88fa/4/.yarn/berry/cache/@vercel-analytics-npm-1.3.1-fdf1f71ba5-10c0.zip/node_modules/@vercel/analytics/",\
+        "packageDependencies": [\
+          ["@vercel/analytics", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:1.3.1"],\
+          ["@types/next", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["next", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:14.2.4"],\
+          ["react", "npm:18.3.1"],\
+          ["server-only", "npm:0.0.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/next",\
+          "@types/react",\
+          "next",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@vercel/speed-insights", [\
+      ["npm:1.0.12", {\
+        "packageLocation": "./.yarn/unplugged/@vercel-speed-insights-virtual-a919f0e990/node_modules/@vercel/speed-insights/",\
+        "packageDependencies": [\
+          ["@vercel/speed-insights", "npm:1.0.12"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:1.0.12", {\
+        "packageLocation": "./.yarn/unplugged/@vercel-speed-insights-virtual-a919f0e990/node_modules/@vercel/speed-insights/",\
+        "packageDependencies": [\
+          ["@vercel/speed-insights", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:1.0.12"],\
+          ["@sveltejs/kit", null],\
+          ["@types/next", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/svelte", null],\
+          ["@types/sveltejs__kit", null],\
+          ["@types/vue", null],\
+          ["@types/vue-router", null],\
+          ["next", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:14.2.4"],\
+          ["react", "npm:18.3.1"],\
+          ["svelte", null],\
+          ["vue", null],\
+          ["vue-router", null]\
+        ],\
+        "packagePeers": [\
+          "@sveltejs/kit",\
+          "@types/next",\
+          "@types/react",\
+          "@types/svelte",\
+          "@types/sveltejs__kit",\
+          "@types/vue-router",\
+          "@types/vue",\
+          "next",\
+          "react",\
+          "svelte",\
+          "vue-router",\
+          "vue"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4750,6 +4821,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["server-only", [\
+      ["npm:0.0.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/server-only-npm-0.0.1-24bf42bde2-10c0.zip/node_modules/server-only/",\
+        "packageDependencies": [\
+          ["server-only", "npm:0.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["set-function-length", [\
       ["npm:1.2.2", {\
         "packageLocation": "../../../.yarn/berry/cache/set-function-length-npm-1.2.2-243073748b-10c0.zip/node_modules/set-function-length/",\
@@ -5596,6 +5676,8 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.0"],\
           ["@typescript-eslint/eslint-plugin", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:7.14.1"],\
           ["@typescript-eslint/parser", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:7.14.1"],\
+          ["@vercel/analytics", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:1.3.1"],\
+          ["@vercel/speed-insights", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:1.0.12"],\
           ["class-variance-authority", "npm:0.7.0"],\
           ["clsx", "npm:2.1.1"],\
           ["eslint", "npm:8.57.0"],\
