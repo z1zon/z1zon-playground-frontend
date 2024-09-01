@@ -6,8 +6,8 @@ export const metadata = {
   title,
 };
 
-function page() {
+function Page() {
   return <Create />;
 }
 
-export default page;
+export default Page;
