@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import clsx from 'clsx';
 
 import ClientProvider from '@/components/ClientProvider';
@@ -25,6 +27,8 @@ function RootLayout({
             {children}
           </Layout>
         </ClientProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
