@@ -14098,7 +14098,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["sanitize.css", [\
       ["npm:13.0.0", {\
-        "packageLocation": "../../../.yarn/berry/cache/sanitize.css-npm-13.0.0-3424903b5d-10c0.zip/node_modules/sanitize.css/",\
+        "packageLocation": "./.yarn/cache/sanitize.css-npm-13.0.0-3424903b5d-508cde59d1.zip/node_modules/sanitize.css/",\
         "packageDependencies": [\
           ["sanitize.css", "npm:13.0.0"]\
         ],\

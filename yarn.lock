@@ -10488,6 +10488,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sanitize.css@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "sanitize.css@npm:13.0.0"
+  checksum: 10/508cde59d1c99a885806387ca8350c594c4211cab16804fe66ed75cd7e1ba7ebd4079224128b1aea4d4227f0d1add3e83a85a51a6a7e4419c083f4cce70d010f
+  languageName: node
+  linkType: hard
+
 "sass-loader@npm:^12.4.0":
   version: 12.6.0
   resolution: "sass-loader@npm:12.6.0"
@@ -10536,13 +10543,6 @@ __metadata:
     webpack:
       optional: true
   checksum: 10/3ba0ecfbfd3c0caa48fe58e9a1f4ccd08e5a95b1233978f985567be04fb153ef6736b95e54cc1a5a6e7a3485c3fa09dc165d028c031ae431f71f64f5ddd93608
-  languageName: node
-  linkType: hard
-
-"sanitize.css@npm:^13.0.0":
-  version: 13.0.0
-  resolution: "sanitize.css@npm:13.0.0"
-  checksum: 10c0/0c1eb61ff26d8f764593772c9f2af68ef5490cd9c7199ff387138412e8e658a0ee715bf176e0a2569872fc9c277f9342cf1235a9274da7a63aaaf0043747260d
   languageName: node
   linkType: hard
 
