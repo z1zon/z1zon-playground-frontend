@@ -55,6 +55,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.38"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:18.3.1"],\
+          ["sanitize.css", "npm:13.0.0"],\
           ["sass", "npm:1.77.6"],\
           ["tailwind-merge", "npm:2.4.0"],\
           ["tailwindcss", "npm:3.4.4"],\
@@ -4783,6 +4784,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["sanitize.css", [\
+      ["npm:13.0.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/sanitize.css-npm-13.0.0-3424903b5d-10c0.zip/node_modules/sanitize.css/",\
+        "packageDependencies": [\
+          ["sanitize.css", "npm:13.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["sass", [\
       ["npm:1.77.6", {\
         "packageLocation": "../../../.yarn/berry/cache/sass-npm-1.77.6-bcc408e096-10c0.zip/node_modules/sass/",\
@@ -5696,6 +5706,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.38"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:1dbf86f3f2f30d88ec4d28f9faf4d332fba881091df84fbd975858f614a06e154e861c8b02cb3d1b7d9826347f6e666d40ef1f2e7735de4e5bbfedf9c030e548#npm:18.3.1"],\
+          ["sanitize.css", "npm:13.0.0"],\
           ["sass", "npm:1.77.6"],\
           ["tailwind-merge", "npm:2.4.0"],\
           ["tailwindcss", "npm:3.4.4"],\

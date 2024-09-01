@@ -3760,6 +3760,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sanitize.css@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "sanitize.css@npm:13.0.0"
+  checksum: 10c0/0c1eb61ff26d8f764593772c9f2af68ef5490cd9c7199ff387138412e8e658a0ee715bf176e0a2569872fc9c277f9342cf1235a9274da7a63aaaf0043747260d
+  languageName: node
+  linkType: hard
+
 "sass@npm:^1.77.6":
   version: 1.77.6
   resolution: "sass@npm:1.77.6"
@@ -4561,6 +4568,7 @@ __metadata:
     postcss: "npm:^8"
     react: "npm:^18"
     react-dom: "npm:^18"
+    sanitize.css: "npm:^13.0.0"
     sass: "npm:^1.77.6"
     tailwind-merge: "npm:^2.4.0"
     tailwindcss: "npm:^3.4.1"

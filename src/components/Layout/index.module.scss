@@ -4,12 +4,18 @@
   padding: 0;
   margin: 0;
   height: 100%;
+  background-color: color("secondary");
 }
 
 .contentBox {
   height: auto;
-  width: auto;
+  max-width: 390px; //NOTE: mobile only
   min-height: calc(var(--vh, 1vh) * 100);
   position: relative;
   margin: 0 auto;
+  background-color: color("white");
+
+  .innerContent {
+    padding: 0 20px;
+  }
 }
