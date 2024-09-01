@@ -1,0 +1,15 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  height: 48px;
+  cursor: pointer;
+
+  &.default {
+    &.primary {
+      background-color: color("primary");
+      @include text("h5/medium", "white");
+    }
+  }
+}

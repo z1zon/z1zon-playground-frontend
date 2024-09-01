@@ -1,3 +1,5 @@
+const path = require('path');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -9,6 +11,10 @@ const nextConfig = {
   experimental: {
     esmExternals: true,
     typedRoutes: true,
+  },
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+    additionalData: "@import '/src/styles/main';",
   },
 };
 

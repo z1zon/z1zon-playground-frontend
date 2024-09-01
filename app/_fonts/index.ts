@@ -1,7 +1,10 @@
-import { Noto_Serif_KR } from 'next/font/google';
+import { Noto_Serif_KR, VT323 } from 'next/font/google';
 import localFont from 'next/font/local';
 
 const notoSerifKr = Noto_Serif_KR({ subsets: ['latin'], weight: '900' });
+const vt323 = VT323({
+  subsets: ['latin'], weight: '400', variable: '--font-vt323',
+});
 
 const pretendardFont = localFont({
   src: [
@@ -44,7 +47,8 @@ const pretendardFont = localFont({
     'Segoe UI Emoji',
     'Segoe UI Symbol',
     'sans-serif',
+    'VT323',
   ],
 });
 
-export { pretendardFont, notoSerifKr };
+export { pretendardFont, notoSerifKr, vt323 };

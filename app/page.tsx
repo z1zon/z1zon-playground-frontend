@@ -1,11 +1,7 @@
-import Welcome from '@/components/Welcome';
+import Home from '@/components/pages/Home';
 
-function Home() {
-  return (
-    <div className="container mx-auto px-4 py-8">
-      <Welcome name="Hyojin" />
-    </div>
-  );
+function Page() {
+  return <Home />;
 }
 
-export default Home;
+export default Page;
