@@ -2720,6 +2720,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/node-logger@npm:^8":
+  version: 8.2.9
+  resolution: "@storybook/node-logger@npm:8.2.9"
+  peerDependencies:
+    storybook: ^8.2.9
+  checksum: 10c0/c3f4aa9f376a47f04f0cb20b3d6a55294636ac55a27edcd864912de06a8076ccb95f6a0e9e0c68a7eb08f1cb1b5c32b7ccb3eed1601cdc92ac344b8de2907c26
+  languageName: node
+  linkType: hard
+
 "@storybook/preset-react-webpack@npm:8.2.9":
   version: 8.2.9
   resolution: "@storybook/preset-react-webpack@npm:8.2.9"
@@ -5226,6 +5235,30 @@ __metadata:
     webpack:
       optional: true
   checksum: 10c0/bb52434138085fed06a33e2ffbdae9ee9014ad23bf60f59d6b7ee67f28f26c6b1764024d3030bd19fd884d6ee6ee2224eaed64ad19eb18fbbb23d148d353a965
+  languageName: node
+  linkType: hard
+
+"css-loader@npm:^7":
+  version: 7.1.2
+  resolution: "css-loader@npm:7.1.2"
+  dependencies:
+    icss-utils: "npm:^5.1.0"
+    postcss: "npm:^8.4.33"
+    postcss-modules-extract-imports: "npm:^3.1.0"
+    postcss-modules-local-by-default: "npm:^4.0.5"
+    postcss-modules-scope: "npm:^3.2.0"
+    postcss-modules-values: "npm:^4.0.0"
+    postcss-value-parser: "npm:^4.2.0"
+    semver: "npm:^7.5.4"
+  peerDependencies:
+    "@rspack/core": 0.x || 1.x
+    webpack: ^5.27.0
+  peerDependenciesMeta:
+    "@rspack/core":
+      optional: true
+    webpack:
+      optional: true
+  checksum: 10c0/edec9ed71e3c416c9c6ad41c138834c94baf7629de3b97a3337ae8cec4a45e05c57bdb7c4b4d267229fc04b8970d0d1c0734ded8dcd0ac8c7c286b36facdbbf0
   languageName: node
   linkType: hard
 
@@ -9631,7 +9664,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:^8.1.1":
+"postcss-loader@npm:^8, postcss-loader@npm:^8.1.1":
   version: 8.1.1
   resolution: "postcss-loader@npm:8.1.1"
   dependencies:
@@ -10553,6 +10586,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sass-loader@npm:^16":
+  version: 16.0.1
+  resolution: "sass-loader@npm:16.0.1"
+  dependencies:
+    neo-async: "npm:^2.6.2"
+  peerDependencies:
+    "@rspack/core": 0.x || 1.x
+    node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
+    sass: ^1.3.0
+    sass-embedded: "*"
+    webpack: ^5.0.0
+  peerDependenciesMeta:
+    "@rspack/core":
+      optional: true
+    node-sass:
+      optional: true
+    sass:
+      optional: true
+    sass-embedded:
+      optional: true
+    webpack:
+      optional: true
+  checksum: 10c0/ac841ea8881354e4bf286c2c5f331b60c2edf73c6e4abbc85b954024ec16dfda01accf59ea6fcb4b29ec7dd5a81a9950fc9138dcb262b9130865367201b7699a
+  languageName: node
+  linkType: hard
+
 "sass@npm:^1.77.6":
   version: 1.77.6
   resolution: "sass@npm:1.77.6"
@@ -10990,6 +11049,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"storybook-addon-sass-postcss@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "storybook-addon-sass-postcss@npm:0.3.1"
+  dependencies:
+    "@storybook/node-logger": "npm:^8"
+    css-loader: "npm:^7"
+    postcss-loader: "npm:^8"
+    sass-loader: "npm:^16"
+    style-loader: "npm:^4"
+  peerDependencies:
+    postcss: ^8
+    sass: ^1
+    webpack: ^5.93.0
+  checksum: 10c0/18a7d99c148a73dbfb93ace6ab82f0046e6f31f489ef4866c448777c3d32cf7fe8f8fb029d72834e210785a0716f411b7570b2a34589b8ac417efba8941d3eba
+  languageName: node
+  linkType: hard
+
 "storybook@npm:^8.2.9":
   version: 8.2.9
   resolution: "storybook@npm:8.2.9"
@@ -11233,6 +11309,15 @@ __metadata:
   peerDependencies:
     webpack: ^5.0.0
   checksum: 10c0/8f8027fc5c6e91400cbb60066e7db3315810f8eaa0d19b2a254936eb0bec399ba8a7043b1789da9d05ab7c3ba50faf9267765ae0bf3571e48aa34ecdc774be37
+  languageName: node
+  linkType: hard
+
+"style-loader@npm:^4":
+  version: 4.0.0
+  resolution: "style-loader@npm:4.0.0"
+  peerDependencies:
+    webpack: ^5.27.0
+  checksum: 10c0/214bc0f3b018f8c374f79b9fa16da43df78c7fef2261e9a99e36c2f8387601fad10ac75a171aa8edba75903db214bc46952ae08b94a1f8544bd146c2c8d07d27
   languageName: node
   linkType: hard
 
@@ -12330,6 +12415,7 @@ __metadata:
     react-dom: "npm:^18"
     sass: "npm:^1.77.6"
     storybook: "npm:^8.2.9"
+    storybook-addon-sass-postcss: "npm:^0.3.1"
     tailwind-merge: "npm:^2.4.0"
     tailwindcss: "npm:^3.4.1"
     tailwindcss-animate: "npm:^1.0.7"
