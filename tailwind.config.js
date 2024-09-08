@@ -1,10 +1,6 @@
-import type { Config } from 'tailwindcss';
-
-const config = {
-  darkMode: ['class'],
+module.exports = {
+  darkMode: ['selector'],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
   ],
@@ -74,7 +70,6 @@ const config = {
       },
     },
   },
+  // eslint-disable-next-line global-require
   plugins: [require('tailwindcss-animate')],
-} satisfies Config;
-
-export default config;
+};
