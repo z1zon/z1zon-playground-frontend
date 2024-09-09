@@ -16,7 +16,7 @@ function Join() {
         <Input type="submit" id="room-id" placeholder="방 ID를 입력해 주세요." />
       </div>
       <Button variant="default" size="lg" asChild className="mt-auto w-full">
-        <Link href={`/room/${id}`}>
+        <Link href={`/room/ready/${id}`}>
           게임 참여하기
         </Link>
       </Button>
