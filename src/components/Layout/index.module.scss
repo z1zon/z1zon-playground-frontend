@@ -8,6 +8,8 @@
 }
 
 .contentBox {
+  display: flex;
+  flex-direction: column;
   height: auto;
   max-width: 390px; //NOTE: mobile only
   min-height: calc(var(--vh, 1vh) * 100);
@@ -17,5 +19,7 @@
 
   .innerContent {
     padding: 0 20px;
+    height: 100%;
+    flex: 1;
   }
 }

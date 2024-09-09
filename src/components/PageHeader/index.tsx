@@ -3,8 +3,8 @@ import { PropsWithChildren } from 'react';
 import styles from './index.module.scss';
 
 type Props = {
-  title: string;
-  subTitle: string;
+  title?: string;
+  subTitle?: string;
 };
 
 function PageHeader({ title, subTitle }:PropsWithChildren<Props>) {
